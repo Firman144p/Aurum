@@ -1,0 +1,66 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --font-serif: 'Cormorant Garamond', Georgia, serif;
+    --font-display: 'Cinzel', serif;
+    --font-sans: 'Plus Jakarta Sans', system-ui, sans-serif;
+  }
+
+  body {
+    font-family: var(--font-sans);
+    background-color: #0F1E17;
+    color: #F0EDE5;
+    overflow-x: hidden;
+  }
+
+  h1, h2, h3, .font-serif-lux {
+    font-family: var(--font-serif);
+  }
+
+  .font-display-lux {
+    font-family: var(--font-display);
+  }
+
+  .font-sans-lux {
+    font-family: var(--font-sans);
+  }
+}
+
+/* Subtle gold hairline borders and custom utility classes */
+.border-gold-subtle {
+  border-color: rgba(212, 175, 55, 0.2);
+}
+
+.border-gold-glow {
+  border-color: rgba(212, 175, 55, 0.45);
+}
+
+.bg-emerald-deep {
+  background-color: #0F1E17;
+}
+
+.bg-emerald-surface {
+  background-color: #142820;
+}
+
+.bg-emerald-card {
+  background-color: #162E25;
+}
+
+.text-gold {
+  color: #D4AF37;
+}
+
+.text-gold-light {
+  color: #F3E5AB;
+}
+
+.text-emerald-accent {
+  color: #4ADE80;
+}
+
+.text-muted-emerald {
+  color: #9EB3A6;
+}
+

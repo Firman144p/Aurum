@@ -1,0 +1,6 @@
+{
+  "name": "AURUM — Smart Wealth Assistant",
+  "description": "Kelola kekayaanmu, sejelas emas. Aplikasi asisten keuangan pintar berbasis AI untuk profesional muda yang ingin mengatur investasi, tabungan, dan pengeluaran secara otomatis.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
